@@ -1,0 +1,87 @@
+.header {
+  background-color: #333;
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 90px;
+}
+.kebijakan {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  width: 1280px;
+  height: auto;
+  margin-left: 80px;
+  box-shadow: 0px 2px 10px rgba(34, 34, 34, 0.1);
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.sdm {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  width: 1280px;
+  height: auto;
+  margin-left: 80px;
+  box-shadow: 0px 2px 10px rgba(34, 34, 34, 0.1);
+  border-radius: 10px;
+}
+h1 {
+  font-size: 52px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+p {
+  font-size: 24px;
+  margin-left: 20px;
+}
+h3 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-check {
+  font-size: 24px;
+  margin-left: 20px;
+}
+body {
+  background-color: #e5e5e5;
+  margin-top: 90px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+.logo {
+  margin-left: 10px;
+  width: auto;
+  height: 60px;
+}
+
+.header-left {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: white;
+}
