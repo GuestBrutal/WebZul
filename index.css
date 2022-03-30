@@ -1,14 +1,25 @@
 @import "~mdb-ui-kit/css/mdb.min.css";
 .header {
+  position: fixed;
   background-color: #333;
-  position: absolute;
-  width: 1440px;
-  height: 60px;
+  height: 80px;
   left: 0px;
   top: 0px;
   margin-bottom: 90px;
+  overflow: hidden; /* Position the navbar at the top of the page */
+  width: 100%;
 }
 input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="value"],
 select {
   width: 100%;
   padding: 12px 20px;
@@ -123,11 +134,14 @@ ul {
 
 li {
   float: right;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 .logo {
-  margin-left: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
   width: auto;
-  height: 60px;
+  height: 40px;
 }
 
 .header-left {
